@@ -10,7 +10,7 @@ $ make
 ## How to use
 ```bash
 $ cd k_means/
-$ ./kmeans
+$ ./test
 $ gnuplot
-# plot "clustered.txt" ind 0, "" ind 1
+$ plot "clustered.txt" ind 0, "" ind 1
 ```

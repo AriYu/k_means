@@ -35,6 +35,6 @@ ADD_DEFINITIONS(
   -std=c++11
   )
 add_executable( 
-  k_means k_means.cpp 
+  test test.cpp k_means.cpp 
   )
-target_link_libraries( k_means ${OpenCV_LIBS} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
+target_link_libraries( test ${OpenCV_LIBS} ${OPENGL_LIBRARIES} ${GLUT_LIBRARY})
